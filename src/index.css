@@ -1,0 +1,65 @@
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+  padding: 25px 0 20px 0px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+
+}
+body {
+  background: black;
+}
+.name{
+  font-weight: bold;
+  font-size: 18px;
+}
+.information {
+   display:flex;
+   flex-direction: column;
+   gap: 6px;
+}
+.mission-control{
+  display:flex;
+  flex-direction: column;
+ gap: 20px
+}
+.mission{
+  border: solid 2px white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mission-card {
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+  color:white;
+  font-size: 14px;
+}
+.button {
+  border: solid 2px rgb(104, 173, 0);
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor:pointer;
+}
+.mission-action {
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+.mission-filter-box{
+display: flex;
+gap: 10px;
+}
+.filter-button {
+  width: 100px;
+  border: solid red 2px;
+  color: white;
+  background-color: black;
+  height: 34px;
+  align-items: center;
+}
